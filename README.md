@@ -6,28 +6,28 @@ Dự án này giúp bạn fine-tune [OpenAI Whisper Large v3](https://huggingfac
 
 ## 📂 Cấu trúc project
 
-whisper-vietnamese-finetune/
-│── data/ # chứa dataset (Kaggle VIVOS)
-│ └── vivos/...
-│
-│── configs/
-│ └── training_config.yaml # cấu hình huấn luyện
-│
-│── scripts/
-│ ├── download_data.sh # tải dữ liệu từ Kaggle
-│ ├── prepare_vivos.py # xử lý dữ liệu thành CSV
-│ ├── train.py # fine-tune Whisper
-│ ├── evaluate.py # đánh giá WER/CER
-│ └── inference.py # chạy inference
-│
-│── modules/
-│ ├── dataset.py # load dataset
-│ ├── preprocessing.py # xử lý dữ liệu đầu vào
-│ ├── model.py # load Whisper + freeze encoder
-│ └── utils.py # hàm phụ trợ
-│
-│── requirements.txt
-└── README.md
+whisper-vietnamese-finetune/ <br>
+│── data/ # chứa dataset (Kaggle VIVOS) <br>
+│ └── vivos/... <br>
+│ <br>
+│── configs/ <br>
+│ └── training_config.yaml # cấu hình huấn  <br>
+│ <br>
+│── scripts/ <br>
+│ ├── download_data.sh # tải dữ liệu từ Kaggle <br>
+│ ├── prepare_vivos.py # xử lý dữ liệu thành CSV <br>
+│ ├── train.py # fine-tune Whisper <br>
+│ ├── evaluate.py # đánh giá WER/CER <br>
+│ └── inference.py # chạy inference <br>
+│ <br>
+│── modules/ <br>
+│ ├── dataset.py # load dataset <br>
+│ ├── preprocessing.py # xử lý dữ liệu đầu vào <br>
+│ ├── model.py # load Whisper + freeze encoder <br>
+│ └── utils.py # hàm phụ trợ <br>
+│ <br>
+│── requirements.txt <br>
+└── README.md <br>
 
 
 ---
