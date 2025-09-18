@@ -1,0 +1,8 @@
+transformers>=4.42.0
+datasets>=2.20.0
+accelerate
+jiwer
+soundfile
+torch
+torchaudio
+kaggle

@@ -1,0 +1,14 @@
+model_name: "openai/whisper-large-v3"
+output_dir: "./checkpoints/whisper-vn"
+train_csv: "vivos_train.csv"
+test_csv: "vivos_test.csv"
+
+# training args
+train_batch_size: 2
+eval_batch_size: 2
+gradient_accumulation_steps: 8
+num_train_epochs: 3
+fp16: true
+logging_steps: 50
+eval_steps: 200
+save_steps: 200
