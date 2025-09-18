@@ -41,9 +41,9 @@ pip install -r requirements.txt
 ## 🏋️ Huấn luyện
 
 Chạy lệnh:
-
+```bash
 python scripts/train.py
-
+```
 Checkpoint sẽ được lưu tại ./checkpoints/whisper-vn.
 
 
@@ -51,17 +51,19 @@ Checkpoint sẽ được lưu tại ./checkpoints/whisper-vn.
 ## 🎙️ Inference
 
 Thử chạy inference với audio mới (sample.wav):
-
+```bash
 python scripts/inference.py
-
+```
 
 Ví dụ output:
-
+```bash
 xin chào các bạn
+```
 
 ## 📊 Đánh giá
 
 Sau khi huấn luyện, có thể tính WER/CER với script evaluate.py.
-
+```bash
 from jiwer import wer
 wer(refs, hyps)
+```
